@@ -4,6 +4,7 @@ function welcome {
     echo "              #################################################"
     echo "              #                HyprMin Dotfiles               #"
     echo "              #                GitHub: D3v1F                  #"
+    echo "              #            https://github.com/D3v1f           #"
     echo "              #################################################"
     echo ""
     echo "              El siguiente script configurara e instalara [yay, hyprland, waybar, wofi]"
