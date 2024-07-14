@@ -22,9 +22,8 @@ chmod +x output.sh
 ./output.sh
 ```
 ## Setup 
-* **General** *
   <img src='.assets/Desktop.png'>
-* **Wofi**
-  <img src='.assets/wofi.png'>
-* **Waybar**
   <img src='.assets/waybar.png'>
+  <img src='.assets/wofi.png'>
+  <img src='.assets/PowerMenu.png'>
+   
