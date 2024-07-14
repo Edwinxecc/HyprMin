@@ -21,3 +21,5 @@ chmod +x HyprMinInstall.sh
 chmod +x output.sh
 ./output.sh
 ```
+## Setup 
+<img src='.assets/Desktop.png'>
