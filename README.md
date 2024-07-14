@@ -24,7 +24,7 @@ chmod +x output.sh
 ## Setup 
 * **General** *
   <img src='.assets/Desktop.png'>
-* **Waybar**
-  <img src='.assets/waybar.png'>
 * **Wofi**
-  <img src='.assets/wofi.png'>
+<img src='.assets/wofi.png'>
+* **Waybar**
+<img src='.assets/waybar.png'>
