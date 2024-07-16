@@ -4,6 +4,7 @@ function welcome {
     echo "              #################################################"
     echo "              #                HyprMin Dotfiles               #"
     echo "              #                GitHub: D3v1F                  #"
+    echo "              #            https://github.com/D3v1f           #"
     echo "              #################################################"
     echo ""
     echo "              El siguiente script configurara e instalara [yay, hyprland, waybar, wofi]"
@@ -59,6 +60,10 @@ function copy_dotfiles {
     cd $HOME 
     mkdir Escritorio; mkdir Escritorio/Capturas
     mkdir $Home/Fondos
+    mkdir $HOME/.config/waybar
+    mkdir $HOME/.config/fastfetch
+    mkdir $HOME/.config/wofi
+
     cd HyprMin
     echo -e "\e[32mOK\e[0m"
     echo -e "              \e[32mCopiando hypr en .cofig/hypr...\e[0m"
@@ -70,6 +75,10 @@ function copy_dotfiles {
     echo -e "              \e[32mCopiando wofi en .cofig/wofi...\e[0m"
     cp -r .config/wofi/* $HOME/.config/wofi/
     echo -e "\e[32mOK\e[0m"
+    echo -e "              \e[32mCopiando fastfetch en .cofig/fastfetch...\e[0m"
+    cp -r .config/fastfetch/* $HOME/.config/fastfetch/
+    echo -e "\e[32mOK\e[0m"
+
     echo -e "              \e[32mCopiando fondo en Fondos...\e[0m"
     cp -r Fondos/* $HOME/Fondos
     notify-send "HyprMin Instalado Correctamente"
