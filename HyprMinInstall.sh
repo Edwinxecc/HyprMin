@@ -18,6 +18,7 @@ function welcome {
     echo -e "              \e[32m[wlogout]\e[0m"
     echo -e "              \e[32m[waybar]\e[0m"
     echo ""
+    echo "                !RECUERDA QUE EL SCRIPT DEBE SER EJECUTADO EN HYPRLAND YA INCIADO!"
 }
 
 function continue_install {
@@ -29,8 +30,8 @@ function continue_install {
         # yay 
         install_yay
         #wofi, waybar, wlogout
-        sudo pacman -S wofi waybar thunar alacritty hyprpaper
-        yay -S wlogout
+        sudo pacman -S wofi waybar thunar alacritty hyprpaper viewnior --noconfirm
+        yay -S wlogout --noconfirm
         #copiar configuración
 
     elif [ "$respuesta" = "n" ]; then
