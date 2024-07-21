@@ -21,6 +21,7 @@ chmod +x HyprMinInstall.sh
 chmod +x output.sh
 ./output.sh
 ```
+* Necesariamete debes iniciar Hyprland para que el script se ejecute correctamente!!
 ## Setup 
   <img src='.assets/Desktop.png'>
   <img src='.assets/waybar.png'>
