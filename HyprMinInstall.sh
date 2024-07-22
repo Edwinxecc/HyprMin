@@ -30,7 +30,7 @@ function continue_install {
         # yay 
         install_yay
         #wofi, waybar, wlogout
-        sudo pacman -S wofi waybar thunar alacritty hyprpaper viewnior --noconfirm
+        sudo pacman -S wofi waybar thunar alacritty hyprpaper viewnior dunst --noconfirm
         yay -S wlogout --noconfirm
         #copiar configuración
 
@@ -68,20 +68,31 @@ function copy_dotfiles {
 
     cd HyprMin
     echo -e "\e[32mOK\e[0m"
+    #Hyprland
     echo -e "              \e[32mCopiando hypr en .cofig/hypr...\e[0m"
     cp -r .config/hypr/* $HOME/.config/hypr/
     echo -e "\e[32mOK\e[0m"
+    #Waybar
     echo -e "              \e[32mCopiando waybar en .cofig/waybar...\e[0m"
     cp -r .config/waybar/* $HOME/.config/waybar/
     echo -e "\e[32mOK\e[0m"
+    #Wofi
     echo -e "              \e[32mCopiando wofi en .cofig/wofi...\e[0m"
     cp -r .config/wofi/* $HOME/.config/wofi/
     echo -e "\e[32mOK\e[0m"
+    #Fastfetch
     echo -e "              \e[32mCopiando fastfetch en .cofig/fastfetch...\e[0m"
     cp -r .config/fastfetch/* $HOME/.config/fastfetch/
     echo -e "\e[32mOK\e[0m"
+    #Alacritty
+    echo -e "              \e[32mCopiando alacritty en .cofig/alacritty...\e[0m"
     cp -r .config/alacritty/* $HOME/.config/alacritty
     echo -e "\e[32mOK\e[0m"
+    #Dunst
+    echo -e "              \e[32mCopiando dunstrc en .cofig/dunst...\e[0m"
+    cp -r .config/dunst/* $HOME/.config/dunst
+    echo -e "\e[32mOK\e[0m"
+
 
     echo -e "              \e[32mCopiando fondo en Fondos...\e[0m"
     cp -r Fondos/* $HOME/Fondos/
