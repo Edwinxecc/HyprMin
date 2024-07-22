@@ -7,7 +7,7 @@ Dotfiles: Hyprland con waybar, wofi, hyprpaper, wlogout.
 * **Status Bar** : Waybar
 * **Wallpaper** : Hyprpaper
 * **File Manger** : Thunar
-* **pictures viewer** : Viewnior
+* **Pictures Viewer** : Viewnior
 ### Como Instalar
 ```sh
 cd $HOME
