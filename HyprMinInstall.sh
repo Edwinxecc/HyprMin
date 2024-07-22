@@ -64,6 +64,7 @@ function copy_dotfiles {
     mkdir $HOME/.config/waybar
     mkdir $HOME/.config/fastfetch
     mkdir $HOME/.config/wofi
+    mkdir $HOME/.config/alacritty
 
     cd HyprMin
     echo -e "\e[32mOK\e[0m"
@@ -79,9 +80,11 @@ function copy_dotfiles {
     echo -e "              \e[32mCopiando fastfetch en .cofig/fastfetch...\e[0m"
     cp -r .config/fastfetch/* $HOME/.config/fastfetch/
     echo -e "\e[32mOK\e[0m"
+    cp -r .config/alacritty/* $HOME/.config/alacritty
+    echo -e "\e[32mOK\e[0m"
 
     echo -e "              \e[32mCopiando fondo en Fondos...\e[0m"
-    cp -r Fondos/* $HOME/Fondos
+    cp -r Fondos/* $HOME/Fondos/
     notify-send "HyprMin Instalado Correctamente"
 }
 
