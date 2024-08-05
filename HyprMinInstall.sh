@@ -60,7 +60,7 @@ function copy_dotfiles {
     echo -e "               \e[32mCreando Directorios necesarios\e[0m"
     cd $HOME 
     mkdir Escritorio; mkdir Escritorio/Capturas
-    mkdir $Home/Fondos
+    mkdir $HOME/Fondos
     mkdir $HOME/.config/waybar
     mkdir $HOME/.config/fastfetch
     mkdir $HOME/.config/wofi
