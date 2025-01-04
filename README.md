@@ -1,13 +1,13 @@
 # HyprMin 🖥️
 Dotfiles: Hyprland con waybar, wofi, hyprpaper, wlogout.
 ## Ten en cuenta ⚙️
-* **OS** : Arch Linux
-* **Terminal** : Alacritty
-* **App Launcher** : Wofi
-* **Status Bar** : Waybar
-* **Wallpaper** : Hyprpaper
-* **File Manger** : Thunar
-* **Pictures Viewer** : Viewnior
+* **OS** : Arch Linux.
+* **Terminal** : Alacritty.
+* **App Launcher** : Wofi.
+* **Status Bar** : Waybar.
+* **Wallpaper** : Hyprpaper.
+* **File Manger** : Thunar.
+* **Pictures Viewer** : Viewnior.
 ### Como Instalar
 ```sh
 cd $HOME
