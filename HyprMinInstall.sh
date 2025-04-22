@@ -3,8 +3,8 @@ function welcome {
     clear
     echo "              #################################################"
     echo "              #                HyprMin Dotfiles               #"
-    echo "              #                GitHub: D3v1F                  #"
-    echo "              #            https://github.com/D3v1f           #"
+    echo "              #                GitHub: edwinxecc              #"
+    echo "              #            https://github.com/edwinxecc       #"
     echo "              #################################################"
     echo ""
     echo "              El siguiente script configurara e instalara [yay, hyprland, waybar, wofi]"
@@ -96,6 +96,7 @@ function copy_dotfiles {
 
     echo -e "              \e[32mCopiando fondo en Fondos...\e[0m"
     cp -r Fondos/* $HOME/Fondos/
+    echo "\e[32m[*] Proceso Completado con exito.\e[0m"
     notify-send "HyprMin Instalado Correctamente"
 }
 
@@ -120,6 +121,6 @@ function main {
 if [ $(whoami) != 'root' ]; then
     main
 else
-    echo 'Error, el script no debe ser ejecutado como root.'
+    echo '[*] Error, el script no debe ser ejecutado como root.'
     exit 0
 fi
