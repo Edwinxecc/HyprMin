@@ -17,7 +17,7 @@ chmod +x HyprMinInstall.sh
 ./HyprMinInstall.sh
 ```
 #### Cuidado 📢
-* Si el fondo de pantalla esta oscuro necesitamos cambiar un valor en Hyprpaper con : ```cd .config/hypr/```
+* Si el fondo de pantalla esta oscuro necesitamos cambiar un valor en Hyprpaper con (ademas debe tener xrandr instalado) : ```cd .config/hypr/```
 ```sh
 chmod +x output.sh
 ./output.sh
